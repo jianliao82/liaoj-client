@@ -12,3 +12,5 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://172.22.0.5:8748/eureka/,http://172.22.0.7:8748/eureka/
+  instance:
+    preferIpAddress: true
