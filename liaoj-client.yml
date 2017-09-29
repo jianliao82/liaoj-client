@@ -15,3 +15,7 @@ eureka:
   instance:
     preferIpAddress: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
