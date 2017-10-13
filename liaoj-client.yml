@@ -1,6 +1,6 @@
 server:
   port: 8084  # ${PORT:8080}
-profile: new-bbb
+profile: new-eee
 logging:
   level:
     ROOT: INFO
